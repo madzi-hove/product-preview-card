@@ -27,7 +27,7 @@ body {
 
 .card-container {
 	display: flex;
-	block-size: 90vh;
+	block-size: 60vh;
 	max-inline-size: 700px;
 	inline-size: 85vw;
 	background-color: var(--white);
@@ -46,6 +46,31 @@ body {
 	border-radius: 10px 10px 0 0;
 }
 
+/* content styles */
+
+.content {
+	display: flex;
+	flex-flow: column;
+	/* justify-content: space-between; */
+	font-size: 1.4rem;
+	padding: 2rem;
+}
+
+.content h1,
+.discount-price {
+	font-family: Fraunces;
+}
+
+h1 {
+	font-size: 3.5rem;
+	line-height: 1.2;
+	margin: 0;
+}
+
+.content p {
+	color: var(--dark-grayish-blue);
+}
+
 .attribution {
 	position: absolute;
 	bottom: 0;
@@ -58,12 +83,9 @@ body {
 
 /* Mobile Styles */
 @media only screen and (max-width: 412px) {
-	body {
-		background-color: #f09a9d; /* Red */
-	}
-
 	.card-container {
 		flex-flow: column;
+		block-size: 90vh;
 	}
 
 	.image {
@@ -73,22 +95,8 @@ body {
 
 /* Tablet Styles */
 @media only screen and (min-width: 413px) and (max-width: 960px) {
-	body {
-		background-color: #f5cf8e; /* Yellow */
-	}
-
-	.card-container {
-		block-size: 60vh;
-	}
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-	body {
-		background-color: #b2d6ff; /* Blue */
-	}
-
-	.card-container {
-		block-size: 60vh;
-	}
 }
