@@ -28,7 +28,7 @@ body {
 .card-container {
 	display: flex;
 	block-size: 60vh;
-	max-inline-size: 700px;
+	max-inline-size: 600px;
 	inline-size: 90vw;
 	background-color: var(--white);
 
