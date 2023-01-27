@@ -70,6 +70,25 @@ h1 {
 	color: var(--dark-grayish-blue);
 }
 
+/* price container styles */
+
+.price-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	inline-size: 70%;
+}
+
+.price-container p:first-child {
+	color: var(--dark-cyan);
+	font-size: 3rem;
+	margin: 1.5rem;
+}
+
+.price-container p:nth-child(2) {
+	text-decoration: line-through;
+}
+
 .attribution {
 	position: absolute;
 	bottom: 0;
