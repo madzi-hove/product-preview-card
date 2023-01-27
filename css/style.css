@@ -20,7 +20,7 @@ body {
 	align-items: center;
 	font-family: Montserrat, Arial, sans-serif;
 	background-color: var(--cream);
-	height: 100vh;
+	block-size: 100vh;
 }
 
 /* Card container styles */
@@ -29,7 +29,7 @@ body {
 	display: flex;
 	block-size: 60vh;
 	max-inline-size: 700px;
-	inline-size: 85vw;
+	inline-size: 90vw;
 	background-color: var(--white);
 
 	border-radius: 10px;
@@ -43,7 +43,7 @@ body {
 
 .image {
 	background: center/ cover url(../images/image-product-desktop.jpg) no-repeat;
-	border-radius: 10px 10px 0 0;
+	border-radius: 10px 0 0 10px;
 }
 
 /* content styles */
@@ -51,7 +51,6 @@ body {
 .content {
 	display: flex;
 	flex-flow: column;
-	/* justify-content: space-between; */
 	font-size: 1.4rem;
 	padding: 2rem;
 }
@@ -90,6 +89,7 @@ h1 {
 
 	.image {
 		background: center / cover url(../images/image-product-mobile.jpg) no-repeat;
+		border-radius: 10px 10px 0 0;
 	}
 }
 
