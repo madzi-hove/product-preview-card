@@ -51,6 +51,7 @@ body {
 .content {
 	display: flex;
 	flex-flow: column;
+	justify-content: space-around;
 	font-size: 1.4rem;
 	padding: 2rem;
 }
@@ -70,7 +71,7 @@ h1 {
 	color: var(--dark-grayish-blue);
 }
 
-.content > p:first-child {
+.product-category {
 	text-transform: uppercase;
 	letter-spacing: 0.5rem;
 }
