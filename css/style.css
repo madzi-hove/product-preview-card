@@ -70,8 +70,9 @@ h1 {
 	color: var(--dark-grayish-blue);
 }
 
-.content p:first-child {
+.content > p:first-child {
 	text-transform: uppercase;
+	letter-spacing: 0.5rem;
 }
 
 /* price container styles */
