@@ -27,7 +27,7 @@ body {
 
 .card-container {
 	display: flex;
-	block-size: 60vh;
+	min-block-size: 60vh;
 	max-inline-size: 600px;
 	inline-size: 90vw;
 	background-color: var(--white);
@@ -148,6 +148,9 @@ footer {
 
 /* Tablet Styles */
 @media only screen and (min-width: 413px) and (max-width: 960px) {
+	/* .card-container {
+		min-inline-size: 480px;
+	} */
 }
 
 /* Desktop Styles */
